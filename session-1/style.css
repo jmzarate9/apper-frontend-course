@@ -1,0 +1,379 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start of Header */
+
+header {
+    background-color: #ffff;
+    border: #000 1px solid;
+}
+
+.hiring-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    border: #000 1px solid;
+}
+
+.hiring-container img {
+    height: 20px;
+    width: 20px;
+    border: #000 1px solid;
+}
+
+.hiring-container p {
+    height: 20px;
+    width: 400px;
+    border: #000 1px solid;
+}
+
+
+    /* Start of NavBar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    border: #000 1px solid;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    border: #000 1px solid;
+    padding: 5px 0px;
+}
+
+.menu li a {
+    height: 50px;
+    width: 200px;
+    padding: 0px 40px;
+    border: #000 1px solid;
+}
+
+.github-btn button {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+    /* End of NavBar */   
+
+/* End of Header */
+
+/* Start of Details */
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #000 1px solid;
+    padding: 10px;
+}
+
+.details-title {
+    height: 50px;
+    width: 200px;
+    border: #000 1px solid;
+    
+}
+
+.summary-title {
+    display: flex;
+}
+
+.summary-title summary {
+    border: #000 1px solid;
+    padding: 20px 50px;
+}
+
+/* End of Details */
+
+
+/* Start of challenges container */
+
+.challenge-container {
+    display: flex;
+    border: #000 1px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.challenge-container article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: #000 1px solid;
+    overflow: hidden;
+}
+
+.card-container img {
+    height: 250px;
+    width: 350px;
+    border-bottom: #000 1px solid;
+}
+
+.tag-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: #000 1px solid;
+    display: flex;
+    gap: 10px;
+}
+
+.new-tag,
+.premium-tag,
+.free-tag {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.description-container {
+    padding: 25px;
+
+}
+
+.description-container h2 {
+    height: 40px;
+    margin-bottom: 20px;
+    border: #000 1px solid;
+}
+
+.description-container p {
+    height: 150px;
+    padding-top: 10px;
+    border: #000 1px solid;
+}
+
+.languages-level-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border: #000 1px solid;
+}
+
+.html,
+.css,
+.js {
+    color: #fff;
+    padding: 0px 10px;
+    border: #000 1px solid;
+}
+
+
+.level {
+    color:#fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.level-five {
+    padding: 2px 6px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+
+.level-guru {
+    padding: 2px 6px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+
+.level-two {
+    padding: 2px 6px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+
+.level-junior {
+    padding: 2px 6px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+
+/* End of challenges container */
+
+/* Start of discord container */
+
+.discord-container {
+    padding: 100px 0px;
+    border: #000 1px solid;
+}
+
+.discord-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 100px 50px;
+    border: #000 1px solid;
+}
+
+.discord-logo img{
+    height: 50px;
+    width: 200px;
+    border: #000 1px solid;
+}
+
+.discord-info {
+    text-align: center;
+}
+
+.discord-paragraph-one {
+    height: 30px;
+    border: #000 1px solid;
+    margin-bottom: 30px;
+}
+
+.discord-paragraph-two {
+    height: 200px;
+    width: 800px;
+    border: #000 1px solid;
+}
+
+.discord-btn button {
+    height: 50px;
+    width: 150px;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+/* End of discord container */
+
+/* Start of CTA */
+
+.cta-container {
+    padding: 60px 20px;
+    border: #000 1px solid;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.icons li a img{
+    height: 30px;
+    width: 100px;
+    border: #000 1px solid;
+
+}
+
+.cta-two-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.email-container h2 {
+    height: 60px;
+    padding-bottom: 15px;
+    border: #000 1px solid;
+}
+
+.email-container p {
+    height: 50px;
+    width: 350px;
+    padding-bottom: 15px;
+    border: #000 1px solid;
+}
+
+.email {
+    border: #000 1px solid;
+}
+
+
+.email button {
+    height: 50px;
+    width: 150px;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+
+.cta-links h4 {
+    height: 30px;
+    width: 120px;
+    padding-bottom: 15px;
+    border: #000 1px solid;
+}
+
+.cta-links li {
+    height: 20px;
+    list-style: none;
+    border: #000 1px solid;
+}
+
+
+/* End of CTA */
+
+/* Start of Footer */
+
+footer {
+    margin: 0px 50px;
+    padding: 20px 0px;
+    border: #000 1px solid;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    border: #000 1px solid;
+}
+
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-link li a {
+    height: 50px;
+    width: 200px;
+    padding: 0px 40px;
+    border: #000 1px solid;
+}
+
+
+/* End of Footer */
