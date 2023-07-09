@@ -1,0 +1,141 @@
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    background-color: hsl(235, 21%, 11%);
+    overflow-x: hidden;
+}
+
+.img-container {
+    height: 300px;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 15%;
+    left: 31%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsl(236, 33%, 92%);
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+/* Checklist Container */
+
+.app-container {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    width: 550px;
+}
+
+/* User Input Section */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-container .user-input {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 3px;
+    color: hsl(234, 39%, 85%);
+    background-color: hsl(235, 24%, 19%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input-container .add-btn {
+    margin-left: 15px;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+    background-color: hsl(234, 39%, 85%, 0.3);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.add-btn .icon {
+    height: 20px;
+    width: 20px;
+}
+
+/* Checklist Section */
+
+.checklist {
+    list-style-type: none;
+    border-radius: 3px;
+    overflow: hidden;
+    color: hsl(234, 39%, 85%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.checklist li {
+    padding: 20px;
+    border-bottom: 1px solid hsl(237, 14%, 26%);
+    background-color: hsl(235, 24%, 19%);
+    cursor: pointer;
+}
+
+/* Navbar Section */
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    background-color: hsl(235, 24%, 19%);
+}
+
+.filter-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(233, 14%, 35%);
+}
+
+/* Footer Section */
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+    left: 36%;
+    color: hsl(237, 14%, 26%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer a {
+    text-decoration: none;
+    color: hsl(233, 14%, 35%);
+}
+
+.footer a:hover {
+    color: hsl(236, 33%, 92%);
+}
